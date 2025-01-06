@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+</head>
+<header>
+    <ul><b>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </b>
+    </ul>
+</header>
+<body>
+<main>
+    <section class="beranda" id="beranda">
+    <div class="bg1">
+        <img src="LogoKopi.png" alt="">
+    <div class="h1">
+    <h1>Selamat Datang <br><span>
+        Di Web 1/2 Kopitiam</span></h1>
+    </div>
+    <div class="p1">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae cum cupiditate deleniti dicta earum, error, expedita fugit hic itaque iure minima molestias natus nesciunt nostrum, qui quisquam quod vitae.</p>
+    </div>
+        <div class="btn">
+        <a href="#tentang" class="btn1">Tentang Kami</a>
+        </div>
+    </div>
+    <div class="pembatas1"></div>
+    </section>
+    <section class="tentang" id="tentang">
+    <div class="bg2">
+        <div class="video1">
+            <video play loop controls> <source src="video.mp4" type="video/mp4"></video>
+        </div>
+        <img src="LogoKopi.png" alt="">
+        <div class="h4">
+            <h1>Tentang<br><span>
+        1/2 Kopitiam</span></h1>
+        </div>
+        <div class="p4">
+            <p>Pontianak, ibu kota Kalimantan Barat, kini memiliki sebuah warung kopi yang tidak hanya menyajikan cita rasa kopi yang istimewa tetapi juga mengusung misi sosial yang mulia. Warung kopi tersebut adalah Satu Perdua Kopitiam, yang terletak di jantung kota Pontianak dan dikenal karena memperkerjakan para penyandang disabilitas sebagai pelayannya. Warung kopi ini menjadi bukti nyata bahwa inklusi sosial dan pemberdayaan dapat berjalan beriringan dengan bisnis yang sukses.</p></div>
+        <div class="p5">
+            <p>Nama "Satu Perdua" mengandung makna mendalam, menggambarkan filosofi bahwa setiap individu, terlepas dari latar belakang atau kemampuan fisiknya, memiliki setengah dari potensi penuh yang dapat disatukan untuk mencapai sesuatu yang lebih besar. Warung kopi ini didirikan dengan tujuan memberdayakan penyandang disabilitas melalui pelatihan dan pekerjaan yang layak, serta menciptakan lingkungan kerja yang inklusif.</p>
+        </div>
+    </div>
+    <div class="pembatas2"></div>
+    </section>
+
+
+    <section class="menu" id="menu">
+        <img src="LogoKopi.png" alt="">
+    <div class="bg3">
+        <div class="h3">
+            <h1>Rekomendasi Menu<br><span>
+        Best Seller</span></h1>
+        </div>
+        <div class="menu-container">
+            <div class="menu-item">
+                <img src="kopi1.jpg" alt="Signature Expresso">
+                <h3>Signature Expresso</h3>
+                <button onclick="order('Signature Expresso')">Pesan</button>
+            </div>
+            <div class="menu-item">
+                <img src="kopi2.jpg" alt="Matcha Latte">
+                <h3>Matcha Latte</h3>
+                <button onclick="order('Matcha Latte')">Pesan</button>
+            </div>
+            <div class="menu-item">
+                <img src="kopi3.jpg" alt="Matcha Latte">
+                <h3>Matcha Latte</h3>
+                <button onclick="order('Matcha Latte')">Pesan</button>
+            </div>
+            <div class="menu-item">
+                <img src="kopi3.jpg" alt="Matcha Latte">
+                <h3>Matcha Latte</h3>
+                <button onclick="order('Matcha Latte')">Pesan</button>
+            </div>
+        </div>
+    </div>
+    </section>
+        <div class="pembatas2"></div>
+    <section class="contact" id="contact">
+        <img src="LogoKopi.png" alt="">
+        <div class="bg4">
+            <div class="contact-container">
+                <div class="contact-form"><b>
+                    <h2>Hubungi Kami</h2></b>
+                    <form action="submit-form.php" method="post">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="subject">Subjek:</label>
+                        <input type="text" id="subject" name="subject">
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea> <button type="submit">Kirim</button> </form>
+                </div>
+        </div>
+    </section>
+        <div class="pembatas2"></div>
+</main>
+</body>
+</html>
